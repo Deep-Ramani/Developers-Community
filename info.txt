@@ -1,0 +1,18 @@
+install this all
+
+react-router-dom
+react-redux
+react-moment
+axios
+react-router
+react-typed
+redux
+redux-devtool-extension
+
+
+
+
+I had the same issue. I fixed it by downgrading react-router and react-router-dom to version 5.2.0.
+
+Just run npm install react-router-dom@5.2.0 and npm install react-router@5.2.0. This should fix the issue with withRouter().
+
